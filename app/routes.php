@@ -15,4 +15,6 @@ Route::get('/', function()
 {
 	return View::make('hello');
 	//Je fais un changement des routes, est-ce que ça fonctionne???
+	//Deuxième commentaire de changement...
+	//Troisème commentaire de changement...
 });
