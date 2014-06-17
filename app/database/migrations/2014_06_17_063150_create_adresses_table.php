@@ -9,10 +9,10 @@ class CreateAdressesTable extends Migration {
 	{
 		Schema::create('adresses', function(Blueprint $table) {
 			$table->increments('id');
-			$table->string('street');
-			$table->string('npa');
-			$table->string('city');
-			$table->string('country')->nullable();
+			$table->string('street2');
+			$table->string('npa2');
+			$table->string('city2');
+			$table->string('country2')->nullable();
 			$table->softDeletes();
 		});
 	}
