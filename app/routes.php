@@ -15,5 +15,5 @@ Route::get('/', function()
 {
 	return View::make('hello');
         //test
-		// tu peux pas test mec !!??
+		// est-ce que ce test marche bien?????
 });
