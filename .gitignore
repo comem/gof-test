@@ -7,3 +7,20 @@ composer.lock
 .DS_Store
 Thumbs.db
 /nbproject/private/
+
+# Created by http://www.gitignore.io
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+
+### Laravel4 ###
+/bootstrap/compiled.php
+.env.*.php
+.env.php
